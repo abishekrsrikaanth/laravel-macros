@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace WDR\Macros\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MacrosCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-macros';
 
     public $description = 'My command';
 
