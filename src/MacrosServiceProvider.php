@@ -8,6 +8,7 @@ use Illuminate\Support\Stringable;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use WDR\Macros\Macros\Stringable\Abbreviate;
+use WDR\Macros\Macros\Stringable\ContainsNone;
 
 class MacrosServiceProvider extends PackageServiceProvider
 {
@@ -33,6 +34,7 @@ class MacrosServiceProvider extends PackageServiceProvider
     {
         return [
             'abbreviate' => Macros\String\Abbreviate::class,
+            'containsNone' => Macros\String\ContainsNone::class,
         ];
     }
 
@@ -40,6 +42,7 @@ class MacrosServiceProvider extends PackageServiceProvider
     {
         return [
             'abbreviate' => Abbreviate::class,
+            'containsNone' => ContainsNone::class,
         ];
     }
 }

@@ -6,6 +6,17 @@ use Illuminate\Support\Str;
 
 class Abbreviate
 {
+    /**
+     * Abbreviates a given string using the delimiter and glue.
+     *
+     * @param  string  $subject
+     * @param  string  $delimiter
+     * @param  string  $glue
+     *
+     * @mixin Str
+     *
+     * @return string
+     */
     public function __invoke()
     {
         return function ($subject, $delimiter = ' ', $glue = ''): string {

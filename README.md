@@ -1,19 +1,22 @@
 # Useful String and Array helpers that could not be added to the Laravel Framework
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/abishekrsrikaanth/laravel-macros.svg?style=flat-square)](https://packagist.org/packages/abishekrsrikaanth/laravel-macros)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/abishekrsrikaanth/laravel-macros/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/abishekrsrikaanth/laravel-macros/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/abishekrsrikaanth/laravel-macros/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/abishekrsrikaanth/laravel-macros/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/abishekrsrikaanth/laravel-macros.svg?style=flat-square)](https://packagist.org/packages/abishekrsrikaanth/laravel-macros)
+[//]: # ([![Latest Version on Packagist]&#40;https://img.shields.io/packagist/v/abishekrsrikaanth/laravel-macros.svg?style=flat-square&#41;]&#40;https://packagist.org/packages/abishekrsrikaanth/laravel-macros&#41;)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+[//]: # ([![GitHub Tests Action Status]&#40;https://img.shields.io/github/actions/workflow/status/abishekrsrikaanth/laravel-macros/run-tests.yml?branch=main&label=tests&style=flat-square&#41;]&#40;https://github.com/abishekrsrikaanth/laravel-macros/actions?query=workflow%3Arun-tests+branch%3Amain&#41;)
 
-## Support us
+[//]: # ([![GitHub Code Style Action Status]&#40;https://img.shields.io/github/actions/workflow/status/abishekrsrikaanth/laravel-macros/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square&#41;]&#40;https://github.com/abishekrsrikaanth/laravel-macros/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain&#41;)
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-macros.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-macros)
+[//]: # ([![Total Downloads]&#40;https://img.shields.io/packagist/dt/abishekrsrikaanth/laravel-macros.svg?style=flat-square&#41;]&#40;https://packagist.org/packages/abishekrsrikaanth/laravel-macros&#41;)
 
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
+The idea of creating this project is to have a repository of all the Macros that may have been rejected to be added to
+the Laravel Framework. This package is a collection of useful string and array helpers that could not be added to the
+Laravel Framework.
+
+We still review and accept PRs for new macros that could be useful to the community. We will also be adding more macros
+as we find them. But we will not be adding any macros that don't have a use case or are not useful to the community.
+
+So we invite developers to come forward and contribute to this project by adding new macros that they find useful.
 
 ## Installation
 
