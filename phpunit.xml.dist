@@ -17,7 +17,8 @@
 >
     <testsuites>
         <testsuite name="WDR Test Suite">
-            <directory>tests</directory>
+            <directory>./tests</directory>
+            <directory suffix=".php">./tests/Macros</directory>
         </testsuite>
     </testsuites>
     <logging>

@@ -2,7 +2,6 @@
 
 namespace WDR\Macros\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use WDR\Macros\MacrosServiceProvider;
 
@@ -12,9 +11,6 @@ class TestCase extends Orchestra
     {
         parent::setUp();
 
-        Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'WDR\\Macros\\Database\\Factories\\'.class_basename($modelName).'Factory'
-        );
     }
 
     protected function getPackageProviders($app)
@@ -22,15 +18,5 @@ class TestCase extends Orchestra
         return [
             MacrosServiceProvider::class,
         ];
-    }
-
-    public function getEnvironmentSetUp($app)
-    {
-        config()->set('database.default', 'testing');
-
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_laravel-macros_table.php.stub';
-        $migration->up();
-        */
     }
 }
